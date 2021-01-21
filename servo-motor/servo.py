@@ -3,7 +3,7 @@ from time import sleep
 
 #https://gpiozero.readthedocs.io/en/stable/recipes.html#servo
 
-servo = Servo(14)
+servo = Servo(7)
 
 
 servo.min()
