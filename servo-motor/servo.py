@@ -8,6 +8,6 @@ servo = Servo(17)
 
 servo.min()
 sleep(2)
-servo.min()
+servo.mid()
 sleep(2)
 servo.max()
