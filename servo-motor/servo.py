@@ -11,3 +11,4 @@ while True:
     servo.mid()
     sleep(2)
     servo.max()
+    sleep(2)
