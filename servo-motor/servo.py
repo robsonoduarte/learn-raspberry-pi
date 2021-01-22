@@ -7,8 +7,10 @@ servo = AngularServo(17, min_angle=0, max_angle=180)
 servo.angle = 0
 servo.angle
 
+sleep(3)
+
 while True:
-    servo.angle = 90
+    servo.angle = 180
     sleep(2)
     servo.angle = 180
     sleep(2)
