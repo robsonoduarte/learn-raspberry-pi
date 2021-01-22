@@ -10,6 +10,7 @@ while True:
     servo.value = -1
     sleep(2)
     servo.value = 0
+    print('zero...')
     sleep(2)
     servo.value = 1
     sleep(2)
