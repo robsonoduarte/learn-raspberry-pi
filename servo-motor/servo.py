@@ -7,9 +7,9 @@ servo = Servo(17)
 servo.value = 0
 
 while True:
-    servo.min()
+    servo.value = -1
     sleep(2)
-    servo.mid()
-    sleep(2)
-    servo.max()
+    #servo.mid()
+    #sleep(2)
+    servo.value = 1
     sleep(2)
