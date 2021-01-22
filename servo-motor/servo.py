@@ -9,7 +9,7 @@ servo.value = 0
 while True:
     servo.value = -1
     sleep(2)
-    #servo.mid()
-    #sleep(2)
+    servo.value = 0
+    sleep(2)
     servo.value = 1
     sleep(2)
