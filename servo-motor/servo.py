@@ -5,8 +5,8 @@ from time import sleep
 
 servo = AngularServo(17, min_angle=0, max_angle=180)
 servo.angle = 0
-servo.angle
 
+print('zero...')
 sleep(3)
 
 while True:
