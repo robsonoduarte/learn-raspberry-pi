@@ -12,7 +12,7 @@ sleep(3)
 while True:
     servo.angle = 180
     sleep(2)
-    servo.angle = 180
-    sleep(2)
+    #servo.angle = 90
+    #sleep(2)
     servo.angle = 0
     sleep(2)
